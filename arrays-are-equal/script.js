@@ -11,6 +11,7 @@ function arraysAreEqual(arr1, arr2) {
 }
 
 console.log(arraysAreEqual([1, 2, 3], [1, 2, 3]));
+console.log(arraysAreEqual([1, 2, 3], [1, 2, 3, 4]));
 console.log(arraysAreEqual([1, 2, 3], [1, 2, 4]));
 console.log(arraysAreEqual([], []));
 
